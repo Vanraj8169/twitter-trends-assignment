@@ -82,5 +82,4 @@ def get_trends():
         latest_trend['_id'] = convert_objectid(latest_trend['_id'])
     return jsonify(latest_trend if latest_trend else {})
 
-if __name__ == "__main__":
-    app.run(debug=True)
+
